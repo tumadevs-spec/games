@@ -1,0 +1,20 @@
+{
+  "games": [
+    {
+      "id": "surf",
+      "title": "Edge Surf",
+      "description": "Dodge rocks, grab boosts, escape the kraken.",
+      "type": "surf",
+      "icon": "surfing",
+      "levels": 1
+    },
+    {
+      "id": "gravity",
+      "title": "Sky Catch",
+      "description": "Things are falling from the sky. Can you catch them all?",
+      "type": "gravity_catch",
+      "icon": "public",
+      "levels": 2
+    }
+  ]
+}

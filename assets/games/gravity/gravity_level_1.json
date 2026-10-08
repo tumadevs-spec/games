@@ -1,0 +1,29 @@
+{
+  "level_id": 1,
+  "title": "Sky Catch: Earth",
+  "planet": { "name": "Earth", "g": 9.8, "air": 1.0, "sky": "#87CEEB", "ground": "#6D4C41" },
+  "lives": 4,
+  "lesson": {
+    "who": "Pip",
+    "title": "Help! It's raining stuff!",
+    "text": "Things are dropping from the sky! Slide your basket to catch them all. Watch the yellow numbers: they get faster and faster as things fall!",
+    "button": "Let's go!"
+  },
+  "objects": [
+    { "t": 1.0,  "x": 0.20, "object": "apple", "sprite": "apple.png" },
+    { "t": 2.5,  "x": 0.70, "object": "bowling_ball", "sprite": "bowling_ball.png" },
+    { "t": 4.0,  "x": 0.45, "object": "watermelon", "sprite": "watermelon.png" },
+    { "t": 5.5,  "x": 0.85, "object": "feather", "sprite": "feather.png" },
+    { "t": 7.0,  "x": 0.30, "object": "hammer", "sprite": "hammer.png" },
+    { "t": 8.5,  "x": 0.60, "object": "book", "sprite": "book.png" },
+    { "t": 10.0, "x": 0.15, "object": "rock", "sprite": "rock.png" },
+    { "t": 11.5, "x": 0.75, "object": "leaf", "sprite": "leaf.png" },
+    { "t": 13.0, "x": 0.40, "object": "anvil", "sprite": "anvil.png" }
+  ],
+  "quiz": {
+    "question": "Pip's speed meter said 9.8 after 1 second and 19.6 after 2 seconds. What will it say after 3 seconds?",
+    "options": ["29.4", "9.8", "19.6", "39.2"],
+    "answer_index": 0,
+    "explanation": "The sky adds 9.8 every second! 9.8 + 9.8 + 9.8 = 29.4. The longer something falls, the faster it goes. That's gravity!"
+  }
+}

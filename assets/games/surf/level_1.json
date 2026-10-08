@@ -1,0 +1,20 @@
+{
+  "level_id": 1,
+  "title": "Warm-up",
+  "scroll_speed": 150.0,
+  "spawn_elements": [
+    { "asset_id": "rock_obstacle", "offset_x": 0.25, "distance_y": 450.0 },
+    { "asset_id": "speed_boost",   "offset_x": 0.75, "distance_y": 700.0 },
+    { "asset_id": "rock_obstacle", "offset_x": 0.50, "distance_y": 950.0 },
+    { "asset_id": "rock_obstacle", "offset_x": 0.80, "distance_y": 1200.0 },
+    { "asset_id": "rock_obstacle", "offset_x": 0.20, "distance_y": 1450.0 },
+    { "asset_id": "speed_boost",   "offset_x": 0.50, "distance_y": 1700.0 },
+    { "asset_id": "rock_obstacle", "offset_x": 0.60, "distance_y": 1950.0 },
+    { "asset_id": "rock_obstacle", "offset_x": 0.30, "distance_y": 2200.0 },
+    { "asset_id": "kraken",        "offset_x": 0.50, "distance_y": 2600.0 },
+    { "asset_id": "rock_obstacle", "offset_x": 0.70, "distance_y": 2950.0 },
+    { "asset_id": "speed_boost",   "offset_x": 0.20, "distance_y": 3200.0 },
+    { "asset_id": "rock_obstacle", "offset_x": 0.50, "distance_y": 3450.0 },
+    { "asset_id": "kraken",        "offset_x": 0.80, "distance_y": 3900.0 }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "level_id": 2,
+  "title": "Sky Catch: Moon",
+  "planet": { "name": "Moon", "g": 1.6, "air": 0.0, "sky": "#0B0B1A", "ground": "#9E9E9E" },
+  "lives": 6,
+  "lesson": {
+    "who": "Pip",
+    "title": "We're on the Moon!",
+    "text": "Whoa, everything floats down so slowly up here! Pip dropped a hammer and a feather at the same time. Can you catch both?",
+    "button": "Blast off!"
+  },
+  "objects": [
+    { "t": 1.0,  "x": 0.44, "object": "hammer", "sprite": "hammer.png" },
+    { "t": 1.0,  "x": 0.56, "object": "feather", "sprite": "feather.png" },
+    { "t": 4.0,  "x": 0.24, "object": "hammer", "sprite": "hammer.png" },
+    { "t": 4.0,  "x": 0.36, "object": "feather", "sprite": "feather.png" },
+    { "t": 7.0,  "x": 0.64, "object": "hammer", "sprite": "hammer.png" },
+    { "t": 7.0,  "x": 0.76, "object": "feather", "sprite": "feather.png" },
+    { "t": 10.0, "x": 0.44, "object": "hammer", "sprite": "hammer.png" },
+    { "t": 10.0, "x": 0.56, "object": "feather", "sprite": "feather.png" },
+    { "t": 13.0, "x": 0.29, "object": "hammer", "sprite": "hammer.png" },
+    { "t": 13.0, "x": 0.41, "object": "feather", "sprite": "feather.png" }
+  ],
+  "quiz": {
+    "question": "Moon race! A hammer and a feather are dropped together. Which one hits the ground first?",
+    "options": ["The hammer", "The feather", "They land together!", "Nobody knows"],
+    "answer_index": 2,
+    "explanation": "There's no air on the Moon to slow the feather down, so they land at the same time. An astronaut really did this in 1971!"
+  }
+}
